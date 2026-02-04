@@ -18,7 +18,6 @@ jobs:
                 echo "🏃‍♂️ Ejecutándose en runner ARC"
                 echo "Hostname: $(hostname)"
                 echo "Usuario: $(whoami)"
-                kubectl version --client
 
             - name: Verificar cluster
               run: |
