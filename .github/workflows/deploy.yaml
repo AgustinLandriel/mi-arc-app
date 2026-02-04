@@ -7,7 +7,7 @@ on:
 
 jobs:
     deploy:
-        runs-on: mi-runner #usa el runnner de ARC
+        runs-on: mi-runners #usa el runnner de ARC
 
         steps:
             - name: Checkout del codigo
